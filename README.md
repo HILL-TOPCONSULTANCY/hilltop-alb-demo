@@ -93,8 +93,7 @@ EOF
 # Restart Apache to apply changes
 systemctl restart httpd.service
 ```
-
-select the number of instances
+`select the number of instances`
 
 7. Continue with the instance setup (add storage, configure security group to allow HTTP access on port 80, review, and launch).
 8. Choose an existing key pair or create a new one, then launch your instance.
