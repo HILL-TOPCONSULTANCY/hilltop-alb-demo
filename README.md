@@ -15,7 +15,7 @@ This guide provides instructions on how to deploy an application on a Red Hat Li
 4. Select an instance type.
 5. In the "Configure Instance Details" step, expand the "Advanced Details" section.
 6. Paste the application startup script into the "User data" text box. The script should include commands to install your application and any dependencies, start the application, etc.
-   ```bash
+```bash
    #!/bin/bash
 # Update the system
 yum update -y
@@ -92,7 +92,7 @@ EOF
 
 # Restart Apache to apply changes
 systemctl restart httpd.service
-   ```
+```
 ´´select the number of instances´´
 7. Continue with the instance setup (add storage, configure security group to allow HTTP access on port 80, review, and launch).
 8. Choose an existing key pair or create a new one, then launch your instance.
