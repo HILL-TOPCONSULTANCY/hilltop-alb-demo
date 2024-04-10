@@ -16,7 +16,7 @@ This guide provides instructions on how to deploy an application on a Red Hat Li
 5. In the "Configure Instance Details" step, expand the "Advanced Details" section.
 6. Paste the application startup script into the "User data" text box. The script should include commands to install your application and any dependencies, start the application, etc.
 ```bash
-   #!/bin/bash
+#!/bin/bash
 # Update the system
 yum update -y
 
@@ -42,7 +42,7 @@ cat > /var/www/html/index.html <<EOF
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to Hill-Top Consultancy DevOps CLASS Of 2024A</title>
+    <title>Welcome to Hill-Top Consultancy DevOps CLASS 2024A</title>
     <style>
         body {
             background-color: #f0f0f0;
@@ -76,12 +76,10 @@ cat > /var/www/html/index.html <<EOF
 </head>
 <body>
     <div class="content">
-        <h1>Welcome to Hill-Top Consultancy DevOps CLASS Of 2024A</h1>
+        <h1>Welcome to Hill-Top Consultancy DevOps CLASS 2024A</h1>
         <h2>This is the Current Host IP Address: $HOST_IP</h2>
         <p>Current Date and Time: $CURRENT_DATE</p>
-        <p>Hill-Top Consultancy is a premier IT training and consulting firm that was founded with the vision of empowering professionals and organizations
-            by providing them with cutting-edge skills in DevOps, Cloud Computing, and Software Development. Our ethos is built on the foundation of continuous
-            learning and innovation, which we believe are essential in navigating the ever-evolving technology landscape.</p>
+        <p>Hill-Top Consultancy is a premier IT training and consulting firm that was founded with the vision of empowering professionals and organizations by providing them with cutting-edge skills in DevOps, Cloud Computing, and Software Development. Our ethos is built on the foundation of continuous learning and innovation, which we believe are essential in navigating the ever-evolving technology landscape.</p>
         <p><strong>Email:</strong> info@htconsultancy.net</p>
         <p><strong>Phone:</strong> +45 715 740 47</p>
         <p><strong>Address:</strong> 2630 Taastrup, Denmark</p>
