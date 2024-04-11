@@ -24,10 +24,10 @@ yum update -y
 yum install -y httpd
 
 # Start the Apache service
-systemctl start httpd.service
+systemctl start httpd
 
 # Enable Apache to start on boot
-systemctl enable httpd.service
+systemctl enable httpd
 
 # Get the host's IP address or FQDN
 HOST_IP=$(hostname -f)
@@ -48,10 +48,10 @@ cat > /var/www/html/index.html <<EOF
             background-color: #f0f0f0;
             text-align: center;
             font-family: Arial, sans-serif;
-            font-size: 18px; /* Increase base font size */
+            font-size: 24px; /* Increase base font size */
         }
         h1, h2, p {
-            margin: 20px 0; /* Adjust spacing */
+            margin: 24px 0; /* Adjust spacing */
         }
         h1 {
             color: #007bff;
@@ -89,7 +89,7 @@ cat > /var/www/html/index.html <<EOF
 EOF
 
 # Restart Apache to apply changes
-systemctl restart httpd.service
+systemctl restart httpd
 ```
 `select the number of instances`
 
