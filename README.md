@@ -11,7 +11,7 @@ This guide provides instructions on how to deploy an application on a Red Hat Li
 
 1. Open the AWS Management Console.
 2. Navigate to the EC2 Dashboard and click on "Launch Instance".
-3. Choose a Red Hat Enterprise Linux (RHEL) AMI.
+3. Choose an Amazon Linux AMI.
 4. Select an instance type.
 5. In the "Configure Instance Details" step, expand the "Advanced Details" section.
 6. Paste the application startup script into the "User data" text box. The script should include commands to install your application and any dependencies, start the application, etc.
