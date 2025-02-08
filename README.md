@@ -76,7 +76,7 @@ cat > /var/www/html/index.html <<EOF
 </head>
 <body>
     <div class="content">
-        <h1>Welcome to Hill-Top Consultancy DevOps CLASS 2024A</h1>
+        <h1>Welcome to Hill-Top Consultancy DevOps CLASS 2025A</h1>
         <h2>This is the Current Host IP Address: $HOST_IP</h2>
         <p>Current Date and Time: $CURRENT_DATE</p>
         <p>Hill-Top Consultancy is a premier IT training and consulting firm that was founded with the vision of empowering professionals and organizations by providing them with cutting-edge skills in DevOps, Cloud Computing, and Software Development. Our ethos is built on the foundation of continuous learning and innovation, which we believe are essential in navigating the ever-evolving technology landscape.</p>
